@@ -1,0 +1,249 @@
+@media only screen  and(max-width:980px)
+{
+    .top-nav-bar{
+        height:118px;
+        border-bottom:0;
+    }
+    .search-box{
+        width:100%;
+    }
+    .menu-bar{
+        width:100%;
+    }
+    .menu-bar ul{
+        margin:10px 0;
+        width:100%;
+    }
+    .menu-bar ul li{
+        height:57px;
+        width:100%;
+    
+    }
+
+.slider
+{
+    width:100vw;
+    margin:0rem;
+}
+
+.side-menu{
+    width:34%;
+    z-index:20;
+    top:133px;
+    position:fixed;  /*agr ye na kren toh slider neeche khiskta h side menu pr click krne me  */
+    font-size:12px;
+    background:#f1f3f4;
+    display:none;
+ }
+ .side-menu ul li:hover{
+    color:black;
+    font-size:13.5px;
+    transition:0.5s;
+}
+ .side-menu ul li ul{
+     top:133px;
+ }
+ .side-menu ul li:hover ul{
+     margin-left:31%;
+ }
+ #menu-btn{
+     display:block;
+ }
+ .slider{
+    width:100vw;
+    margin-left:0rem;
+}
+.featured-categories
+{ text-align: center;
+    margin:5px 5px;
+    align-items: center;
+}
+.featured-categories img
+{
+    width:100%;
+    padding:10px 0px;
+    transition:1s;
+    cursor:pointer;
+}
+.featured-categories img:hover
+{
+transform:scale(1.1);
+}
+.title-box{
+    background:#f5de0d;
+    color:black;
+    width:230px;
+    padding:4px 60px;
+    height:40px;
+    margin-bottom:18px;
+    
+display:flex;
+}
+.title-box h2
+{
+    font-size:24px;
+}
+.title-box::after
+{
+    content:'';
+    height:4px;
+    border-top:40px solid #f5de0d;
+    border-right:50px solid transparent;
+    position:absolute;
+    display:flex;
+    margin-top:-4px;
+    margin-left:170px;
+
+}
+/*----------product-top CSS-------*/
+/* .product-top:img
+{
+width:100%;
+
+} */
+ .responsive
+{
+    
+    width:80%;
+  
+} 
+
+.overlay-right{
+    display:block;
+    opacity:0;
+    position:absolute;
+    top:10%;
+    margin-left:0;
+    width:70px;
+}
+
+.overlay-right .fa
+{
+    cursor:pointer;
+    background-color:#fff;
+    color:#000;
+    height:35px;
+    width:35px;
+    font-size:20px;
+    padding:7px;
+    margin-top:5%;
+    margin-bottom:5%;
+    transition:0.5s;
+}
+.overlay-right .btn-secondary
+{
+    background:none !important;
+    border:none !important;
+    box-shadow:none !important;
+
+}
+.product-top:hover .overlay-right{
+    opacity:1;
+    margin-left:5%;
+    transition:0.5s;
+}
+/*--------PRODUCT BOTTOM CSS---------*/
+.product-bottom .fa
+{
+    color:black;
+    font-size:10px;
+    width:15%;
+    color:red;
+
+}
+.product-bottom h3
+{
+    font-size:20px;
+    font-weight:bold;
+   
+
+}
+.product-bottom h5
+{
+    font-size:15px;
+    padding-bottom:10px;
+
+
+} 
+.final-touch p
+{
+    text-align: center;
+    margin-bottom:25px;
+    color:darkgray;
+    font-size:15px;
+}
+.website-features
+{
+    /* margin:60px 0px; */
+    margin:50px;
+    margin-left:15px;
+}
+.website-features img
+{
+    width:20%;
+}
+.footer h1 
+{
+    font-size:22px;
+    margin:25px 0px;
+
+}
+.footer p
+{
+font-size:20px;
+}
+.copyright
+{
+margin-bottom:-80px;
+text-align:center;
+font-size:20px;
+padding-bottom:20px;
+}
+.fa-heart-o
+{
+color:yellow;
+font-size:21px;
+}
+
+.testimonial
+{
+    padding-top:0rem;
+}
+.testimonial #left
+{
+   margin-left:0rem;
+}
+.testimonial .col-md-4
+{
+    text-align: center;
+    padding:20px 10px;
+    box-shadow:0px 0px 20px 0px rgba(0,0,0,0.1);
+    cursor:pointer;
+    transition:transform 0.25s;
+}
+.testimonial .col-md-4 img
+{
+  width:0rem;
+
+  margin-top:10px;
+  border-radius:50%;
+}
+.testimonial .col-md-4:hover{
+    transform:translateY(-10px);
+}
+.testimonial  .fa-quote-left,.fa-quote-right
+{
+    color:black;
+    font-size:13px;
+}
+.testimonial .fa-quote-right
+{
+    color:black;
+    font-size:13px;
+}
+.testimonial .rating .fa
+{
+    color:black;
+    font-size:10px;
+}
+}
